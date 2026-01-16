@@ -11,11 +11,9 @@ int main(){
 
     for(int i = 0; i<n ; i++){
         if (amount>=notes[i]){
-            int count = amount/notes[i];
-
-            notes[i];
-
-            printf("%d Taka Notes\t: %d of \n", notes[i], count);
+            int count = (int)(amount/notes[i]);
+            printf("%d Notes of %d\n", count, notes[i]);
+            amount = amount%notes[i];
         }
     }
     return 0;
