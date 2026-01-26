@@ -6,3 +6,10 @@
 
 # Executable files (Linux/Unix, no extension)
 a.out
+
+# Any file with no extension
+*
+!*.c
+!*.h
+!*.md
+!*.gitignore
