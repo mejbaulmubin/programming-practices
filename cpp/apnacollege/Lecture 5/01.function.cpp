@@ -1,8 +1,12 @@
 #include <iostream>
 using namespace std;
 
+void printHello(){
+    cout <<"Hello\n";
+}
+
 int main(){
-    cout <<"Mejbaul Mubin";
+    printHello();
     return 0;
 }
 
