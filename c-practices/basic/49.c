@@ -7,6 +7,8 @@ int main(){
     int arr[7];
 
     for(int i = 0; i<7; i++){
-        arr[i] = 
+        arr[i] = y;
+        y *= x;
+        printf("arr[%d] = %d\n",i ,arr[i]);
     }
 }
