@@ -11,3 +11,25 @@ element - 2 : 8
 Expected Output :
 Sum of all elements stored in the array is : 15
 */
+
+#include <stdio.h>
+#define LEN 10
+
+int main()
+{
+    int arr[LEN];
+
+    for (int i = 0; i < LEN; i++)
+    {
+        printf("Enter %d elements of the array : ", i);
+        scanf("%d", &arr[i]);
+    }
+    int sum = arr[0];
+
+    for (int i = 1; i < LEN; i++)
+    {
+        sum = sum+arr[i];
+    }
+
+     printf("The sum of the array = %d", sum);
+}
